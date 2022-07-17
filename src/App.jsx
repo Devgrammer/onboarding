@@ -69,7 +69,7 @@ console.log('formik', formik.values)
                 
 
           </div>
-        <div className="wrapper float-center  lg:px-0">
+        <div className="wrapper float-center px-3 lg:px-0">
 
           {
             activeStep === 1 ? <Step1  formik={formik} activeStep={activeStep} setActiveStep={setActiveStep}/>:''
